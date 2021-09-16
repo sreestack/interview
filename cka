@@ -1,0 +1,66 @@
+https://kubernetes.io/docs/reference/kubectl/conventions/    - RUN
+https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands   -- imperative& declative 
+https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/ 
+https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/cpu-default-namespace/
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
+ - resouce requirmensr
+https://kubernetes.io/docs/concepts/configuration/secret/    - secrets
+https://kubernetes.io/docs/concepts/workloads/pods/init-containers/  -init 
+https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster etcd cluster
+https://etcd.io/docs/v3.5/op-guide/recovery/#restoring-a-cluster etcd restore
+https://kubernetes.io/docs/tasks/administer-cluster/certificates/  -- certificates
+
+https://kubernetes.io/docs/reference/access-authn-authz/rbac/  -- roles,clusterrole,rolebinding,clusterrolebing
+https://kubernetes.io/docs/concepts/configuration/secret/ - secrets
+https://kubernetes.io/docs/concepts/containers/images/  - imagescurity
+https://kubernetes.io/docs/tasks/configure-pod-container/security-context/  - securitycontext
+
+https://kubernetes.io/docs/concepts/storage/persistent-volumes/#claims-as-volumes  --pv & pvc
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#create-a-persistentvolume  pv -hostpath
+
+https://kubernetes.io/docs/concepts/cluster-administration/addons/
+https://kubernetes.io/docs/concepts/cluster-administration/networking/#how-to-implement-the-kubernetes-networking-model
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/#steps-for-the-first-control-plane-node    - network 
+
+https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-ingress-em-
+
+https://kubernetes.io/docs/concepts/services-networking/ingress
+
+https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types
+
+	- Ingress 
+
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/  weavenetwork
+
+https://kubernetes.io/docs/concepts/services-networking/network-policies/   - network policy
+
+https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/
+
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/ - cheatsheet
+
+https://v1-20.docs.kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/  cluster upgrade
+
+https://kubernetes.io/docs/concepts/services-networking/service/  - service 
+
+https://kubernetes.io/docs/reference/kubectl/jsonpath/   - jsonpath
+
+https://kubernetes.io/docs/concepts/services-networking/network-policies/
+https://kubernetes.io/docs/tasks/administer-cluster/declare-network-policy/  - network policy
+
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/  - pod cpu 
+
+https://kubernetes.io/docs/concepts/services-networking/service/#nodeport - nodeport
+
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/ -- non-persistence
+
+https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-token/   join cluster
+
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/ - configmap
+https://kubernetes.io/docs/concepts/configuration/secret/  secret
+
+https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/  replicas
+
+https://kubernetes.io/docs/concepts/cluster-administration/logging/#sidecar-container-with-logging-agent  - sidecar
+
+https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/ - nodeselector
