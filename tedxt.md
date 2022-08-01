@@ -1,10 +1,14 @@
-# main heading
+# first ghheading
 
-## sub heading
+## subheading for first
 
-### sub heading
+## second sub heading
 
-- point 1
-- point 2
+# second main heading
 
-- **i am getting bold**
+> thanks i am doing good
+
+
+![sreekanth-removebg-preview.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659328473792/ZwwyfTKEJ.png align="left")
+
+**bold**
