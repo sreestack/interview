@@ -1,0 +1,49 @@
+create iam(role)
+ec2-instance use iam 
+deploy codedeploy in ec2
+create role ( codedeploy )
+application
+deployment group ( use that role)
+code pipeline
+ push the content
+ 
+ 
+ stop the ec2 and create image
+ create load balace( selet all avaiblabe zones. 
+ create new security group
+ create target group
+ while access ALB will get 503 error bez we are not deploy 
+ go to target groups --> attributes --> 60 sec
+ 
+ click launch config --> select ami --> select same security group -- create 
+ 
+once created then  click launch --> auto scaling group  --> give all networks --> 
+   target group select --> heleth check 1500 --> cleick elb --> select 2 inst --> create
+ 
+ goto --> pipeline --> application --> create new deployment group --> select LB
+ 
+ edit pipeline --> change deployment group 
+ 
+ release changes
+ 
+ chcek target groups & autoscalinginstance list 
+ 
+ change the version and push --> instance will dained and created new 
+ 
+ change the auto scale group count 
+ 
+ go to application --> edit --> deployment one at time --> adv section click rollback when it s fail --> update the version and puch 
+ 
+ so you cann able to see three differnrt versions
+ 
+ update version & update appsepec.yaml file validationservice and location given unknown location and push content 
+ 
+ 
+ blue/gree
+ 
+ go to application select blue/green
+deployment config --> all at a time
+update the version and push the content
+
+ValidateService:
+- location: deploy-scripts/simulate-failure.sh 
